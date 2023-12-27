@@ -1,0 +1,119 @@
+/* Flex utility classes */
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+/* Justification */
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: end;
+}
+
+.justify-start {
+    justify-content: start;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-self-center {
+    justify-self: center;
+}
+
+.justify-self-end {
+    justify-self: end;
+}
+
+.justify-self-start {
+    justify-self: start;
+}
+
+/* Alignment */
+
+.items-center {
+    align-items: center;
+}
+
+.items-end {
+    align-items: end;
+}
+
+.items-start {
+    align-items: start;
+}
+
+.items-between {
+    align-items: space-between;
+}
+
+.items-around {
+    align-items: space-around;
+}
+
+.items-self-center {
+    align-self: center;
+}
+
+.items-self-end {
+    align-self: end;
+}
+
+.items-self-start {
+    align-self: start;
+}
+
+.items-self-between {
+    align-self: space-between;
+}
+
+.items-self-around {
+    align-self: space-around;
+}
+
+/* Grid placement */
+
+.grid {
+    display: grid;
+}
+
+.place-center {
+    place-content: center;
+}
+
+.grid-auto-cols {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+.c-gap-1 {
+    column-gap: .25rem;
+}
+
+.c-gap-2 {
+    column-gap: .75rem;
+}
+
+.c-gap-3 {
+    column-gap: 1.5rem;
+}
+
+.c-gap-4 {
+    column-gap: 2rem;
+}
+
+.c-gap-5 {
+    column-gap: 2.25rem;
+}

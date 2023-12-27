@@ -1,10 +1,29 @@
 {% extends 'base.njk' %}
 
 {% block content %}
+    {% include 'partials/nav.njk' %}
+
     <main>
-        <div>
-            <h1>Bibl.io</h1>
-            <p>good book recs. One review at a time</p>     
-        </div>
+        <section class="two-col-hero"> 
+            <div>
+                <h1 class="t-4xl bold italic">Bibl.io</h1>
+                <p class="lg">Better book recs. One review at a time</p>     
+                <button
+                    type="button"
+                    class="btn"
+
+                >
+                    
+                </button>
+            </div>
+            
+            <div>
+                <img
+                    class="col-hero-image" 
+                    src="https://placehold.co/300x200/f7f7f7/"
+                >
+            </div>
+        </section>
+
     </main>    
 {% endblock %}

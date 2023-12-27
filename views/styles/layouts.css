@@ -1,0 +1,19 @@
+.two-col-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+    min-height: 280px;
+    column-gap: 30px;
+}
+
+.two-col-hero > div {
+    width: 1fr;
+    min-width: 280px;
+}
+
+.two-col-hero .col-hero-image {
+    border-radius: 8px;
+}
