@@ -6,10 +6,12 @@
     margin-left: 40px;
     margin-right: 40px;
     min-height: 280px;
+    margin-top: 40px;
     column-gap: 30px;
+    row-gap: 30px;
 }
 
-.two-col-hero > div {
+.two-col-hero .col-hero-content {
     width: 1fr;
     min-width: 280px;
 }
