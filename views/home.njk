@@ -7,23 +7,17 @@
         <section class="two-col-hero"> 
             <div class="col-hero-content">
                 <h1 class="t-4xl bold italic">Bibl.io</h1>
-                <p class="lg">Better book recs. One review at a time</p>     
-                <button
-                    type="button"
-                    class="btn"
-                    
-                >
-                    
-                </button>
+                <p class="lg">Better book recs. One review at a time</p>
             </div>
             
             <div>
                 <img
                     class="col-hero-image" 
-                    src="https://placehold.co/300x200/f7f7f7/"
+                    src="https://placehold.co/300x200/000000/f7f7f7"
                 >
             </div>
         </section>
 
+        {% include 'home/book_rec_form.njk' %}
     </main>    
 {% endblock %}

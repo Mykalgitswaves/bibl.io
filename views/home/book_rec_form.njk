@@ -1,0 +1,22 @@
+<section class="two-col-hero">
+    <form class="col-hero-form">
+        <label></label>
+        <input class="form-input">
+
+            <button
+                type="button"
+                class="btn px-3 py-2 indigo"
+                hx-post="/hero-clicked"
+                hx-trigger="click"
+                hx-target="#content-book"
+                hx-swap="outerHTML"
+            >
+            See it
+            </button>
+    </form>
+    <div class="col-hero-content">
+        <div id="content-book">
+            
+        </div>
+    </div>
+</section>

@@ -17,5 +17,28 @@
 }
 
 .two-col-hero .col-hero-image {
-    border-radius: 8px;
+    border-radius: var(--radius-sm);
+}
+
+.two-col-hero .col-hero-form {
+    width: 1.5fr;
+    display: grid;
+    row-gap: var(--row-gap-sm);
+    padding: var(--row-gap-sm);
+    border-radius: var(--radius-sm);
+}
+
+.book-card {
+    display: grid;
+    place-content: center;
+    width: 280px;
+    row-gap: var(--row-gap-sm);
+    border-radius: var(--radius-sm);
+    background-color: #fafaf9;
+    padding: var(--padding-card-sm);
+}
+
+.book-card img {
+    height: 200px;
+    justify-self: center;
 }
