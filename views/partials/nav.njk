@@ -1,10 +1,33 @@
-<nav>
-    <ul class="flex">
-        <li>  
-            <button alt="home">Reviews</button>
-        </li>
-        <li>
-            <button alt="">Process</button>
-        </li>
-    </ul>
+<nav class="nav-menu">
+    <button
+        class="nav-menu-button" 
+        type="button"
+        script="on click toggle .d_hidden on #nav_menu_sidebar"
+    >
+        {% include 'svg/icon-menu.njk' %}
+    </button>
+
+    <div id="nav_menu_sidebar" class="d_hidden nav-menu-sidebar">
+        <h3 class="n-m-s--header">Biblio</h3>
+        <ul class="n-m-s--content">
+            <li class="n-m-s--li">  
+                <button 
+                    alt="home"
+                     href="/home"
+                >Reviews</button>
+            </li>
+            <li class="n-m-s--li">
+                <button 
+                    alt="Process"
+                    href="/create"
+                >Process</button>
+            </li>
+            <li class="n-m-s--li">
+                <button 
+                    alt="Process"
+                    href="/contact"
+                >About</button>
+            </li>
+        </ul>
+    </div>
 </nav> 

@@ -1,0 +1,45 @@
+.nav-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: var(--padding-md);
+}
+
+.btn {
+    background-color: var(--gray-50);
+    padding: var(--btn-padding-sm);
+    border-radius: var(--radius-sm);
+    transition: all 150ms ease;
+}
+
+.btn:hover {
+    background-color: var(--gray-100);
+    transform: scale(1.05);
+}
+
+.nav-menu-sidebar {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    width: 60vw;
+    max-width: 480px;
+    transition: all 150ms ease;
+    border-radius: var(--radius-sm);
+}
+
+.n-m-s--header {
+    background-color: var(--surface-primary);
+    padding: var(--padding-sm);
+}
+
+.n-m-s--content {
+    background-color: var(--gray-100);
+}
+
+.n-m-s--li {
+    padding: var(--padding-sm);
+    margin-left: var(--margin-shim-sm);
+}
