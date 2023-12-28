@@ -1,8 +1,8 @@
 @import './reset.css'; 
+@import './vars.css';
 @import './flex.css';
 @import './text.css';
 @import './layouts.css';
-@import './vars.css';
 @import './nav.css';
 
 .d_hidden {

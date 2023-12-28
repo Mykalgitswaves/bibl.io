@@ -1,72 +1,73 @@
+/* Apply classes using CSS variables */
 .xs {
-    font-size: 0.75rem;
-    line-height: 1rem;
+    font-size: var(--font-xs);
+    line-height: var(--line-xs);
 }
 
 .sm {
-    font-size: 0.875rem;
-    line-height: 1.5rem;
+    font-size: var(--font-sm);
+    line-height: var(--line-sm);
 }
 
 .base {
-    font-size: 1rem;
-    line-height: 1.75rem;
+    font-size: var(--font-base);
+    line-height: var(--line-base);
 }
 
 .lg {
-    font-size: 1.125rem;
-    line-height: 2rem;
+    font-size: var(--font-lg);
+    line-height: var(--line-lg);
 }
 
 .xl {
-    font-size: 1.2rem;
-    line-height: 2rem;
+    font-size: var(--font-xl);
+    line-height: var(--line-xl);
 }
 
 .t-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: var(--font-2xl);
+    line-height: var(--line-2xl);
 }
 
 .t-3xl {
-    font-size: 2rem;
-    line-height: 2.5rem;
-} 
+    font-size: var(--font-3xl);
+    line-height: var(--line-3xl);
+}
 
 .t-4xl {
-    font-size: 2.5rem;
-    line-height: 3.5rem;
+    font-size: var(--font-4xl);
+    line-height: var(--line-4xl);
 }
 
 .t-5xl {
-    font-size: 3.rem;
-    line-height: 3.5rem;
+    font-size: var(--font-5xl);
+    line-height: var(--line-5xl);
 }
 
 .t-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
+    font-size: var(--font-6xl);
+    line-height: var(--line-6xl);
 }
 
 .t-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
+    font-size: var(--font-7xl);
+    line-height: var(--line-7xl);
 }
 
 .t-8xl {
-    font-size: 6rem;
-    line-height: 1;
+    font-size: var(--font-8xl);
+    line-height: var(--line-8xl);
 }
 
 .t-9xl {
-    font-size: 8rem;
-    line-height: 1;
+    font-size: var(--font-9xl);
+    line-height: var(--line-9xl);
 }
 
 .bold {
-    font-weight: bold;
+    font-weight: var(--font-bold);
 }
 
 .italic {
-    font-style: italic;
+    font-style: var(--font-italic);
 }
